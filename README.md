@@ -2,6 +2,10 @@
 
 ## 安装
 
+```
+pip install add_pinyin_key
+```
+
 ```bash
 python setup.py install
 ```
@@ -39,4 +43,10 @@ add_pinyin_key demo.bib demo_mod.bib
  urldate = {2018-04-18},
  volume = {22}
 }
+```
+
+注意如果输入的bib文件有类似于 `month = jan` 的字符串，你需要使用 `--common-strings` 选项。
+
+```bash
+add_pinyin_key --common-strings demo.bib demo_mod.bib
 ```
