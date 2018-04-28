@@ -18,6 +18,6 @@ setup(
             'add_pinyin_key = add_pinyin_key.__main__:main',
         ],
     },
-    long_description_content_type='text/markdown'
-    # url='https://github.com/bgse/hellostackoverflow'
+    long_description_content_type='text/markdown',
+    url='https://github.com/Yao1993/add-pinyin-key'
 )
