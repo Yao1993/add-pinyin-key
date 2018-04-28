@@ -10,6 +10,8 @@ setup(
     name='add-pinyin-key',
     version='0.0.2',
     description='Add pinyin keys to Chinese bib entries',
+    long_description=long_description(),
+    long_description_content_type='text/markdown',
     license='MIT',
     packages=find_packages(),
     author='Yao Xu',
@@ -24,7 +26,5 @@ setup(
             'add_pinyin_key = add_pinyin_key.__main__:main',
         ],
     },
-    long_description=long_description(),
-    long_description_content_type='text/markdown',
     url='https://github.com/Yao1993/add-pinyin-key'
 )
