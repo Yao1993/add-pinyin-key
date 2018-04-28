@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='add-pinyin-key',
     version='0.0.1',
     description='Add pinyin keys to Chinese bib entries',
     license='MIT',
-    packages=['add_pinyin_key'],
+    packages=find_packages(),
     author='Yao Xu',
     author_email='yaoxu@mail.ustc.edu.cn',
     keywords=['Bib'],
