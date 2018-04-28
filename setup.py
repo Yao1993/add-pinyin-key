@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='add_pinyin_key',
+    name='add-pinyin-key',
     version='0.0.1',
     description='Add pinyin keys to Chinese bib entries',
     license='MIT',
